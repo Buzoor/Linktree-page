@@ -85,7 +85,7 @@ body {
     flex-grow: 0;
 }
 
-.links button {
+.links a {
     box-sizing: border-box;
 
     /* Auto layout */
