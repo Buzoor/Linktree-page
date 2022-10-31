@@ -8,16 +8,10 @@ align-items: center;
 padding: 0px 32px;
 gap: 32px;
 
-width: 1216px;
+width: auto;
 height: 774px;
 
 
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
 }
 
 .bigdiv {
@@ -27,16 +21,10 @@ flex-grow: 0;
     padding: 0px 32px;
     gap: 32px;
     
-    width: 1216px;
+    width: 100%;
+    margin-left: 15%;
+    margin-right: 5%;
     height: 774px;
-    
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
 }
 
 .profile {
@@ -247,4 +235,3 @@ flex-grow: 0;
     order: 1;
     flex-grow: 1;
 }
-
